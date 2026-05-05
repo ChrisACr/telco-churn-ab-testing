@@ -60,7 +60,7 @@ The test set (held out from all training) serves as the simulated customer pool.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/telco-churn-ab-testing.git
+git clone https://github.com/ChrisACr/telco-churn-ab-testing.git
 cd telco-churn-ab-testing
 ```
 
@@ -100,7 +100,7 @@ install.packages(c(
 Results are printed to the console after running each script. All plots are saved to `plots/` and are referenced in the accompanying presentation.
 
 Highlights:
-- **Best model:** Random Forest (typically AUC ≈ 0.84)
+- **Best model:** Random Forest (AUC ≈ 0.83)
 - **A/B finding:** ML targeting identifies significantly more true churners per customer contacted vs. random selection
 - **Lift at 30% depth:** ~2× over random baseline
 
